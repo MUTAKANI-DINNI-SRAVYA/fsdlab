@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result</title>
+</head>
+<body>
+    <h1>Student name: <%= name %></h1>
+    <p>Marks: <%= marks %></p>
+
+    <% if (marks >= 40) { %>
+        <h2>Result: Pass</h2>
+    <% } else { %>
+        <h2>Result: Fail</h2>
+    <% } %>
+</body>
+</html>

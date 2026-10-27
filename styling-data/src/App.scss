@@ -1,0 +1,15 @@
+$heading-color: blue;
+
+h1 {
+  color: $heading-color;
+}
+
+.student {
+  h2 {
+    color: purple;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
